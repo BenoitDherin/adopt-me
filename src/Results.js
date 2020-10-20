@@ -2,7 +2,6 @@ import React from 'react'
 import Pet from './Pet'
 
 const Results = ({ pets }) => {
-    console.log(pets)
     return (
         <div className="search">
             {pets.length == 0 ? <h1>No Pets Found</h1> : (
